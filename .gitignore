@@ -1,0 +1,7 @@
+Library/
+Temp/
+*.ide
+.vs/
+unityProject.vrmanifest
+*.csproj
+*.sln
