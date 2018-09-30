@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: fbd3bdf47605a43478134b6f59ed0e0f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bat body
+    100002: Bat figure
+    100004: //RootNode
+    100006: Bat head
+    100008: Bat Wing01
+    100010: Bat Wing02
+    100012: Big Cube
+    100014: Big Jar
+    100016: Big Jar Broken
+    100018: Big Jar Broken01
+    100020: Big Jar Broken02
+    100022: Big Jar Broken03
+    100024: Box005
+    100026: Box006
+    100028: Box007
+    100030: Jar
+    100032: Jar Broken
+    100034: Jar Broken01
+    100036: Jar Broken02
+    100038: Jar Broken03
+    100040: Plate
+    100042: Plate Broken
+    100044: Plate broken01
+    100046: Plate broken02
+    100048: Plate broken03
+    100050: Plate Holder
+    100052: Play
+    100054: Play Broken01
+    100056: Play Broken02
+    100058: Reference
+    100060: Small plate
+    100062: Tea cup
+    100064: Tea cup set
+    100066: Tea cup set Broken
+    100068: Tea cup set broken03
+    100070: Tea cup set broken04
+    100072: Tea cup set broken05
+    100074: Tea cup set broken06
+    100076: Tea cup set broken07
+    100078: Tea cup set broken08
+    100080: Teapot
+    100082: Teapot Broken
+    100084: Teapot Broken01
+    100086: Teapot Broken02
+    100088: Teapot Broken03
+    100090: Teapot Broken04
+    100092: Teapot Broken05
+    100094: The Bat
+    100096: The Bat Bent
+    400000: Bat body
+    400002: Bat figure
+    400004: //RootNode
+    400006: Bat head
+    400008: Bat Wing01
+    400010: Bat Wing02
+    400012: Big Cube
+    400014: Big Jar
+    400016: Big Jar Broken
+    400018: Big Jar Broken01
+    400020: Big Jar Broken02
+    400022: Big Jar Broken03
+    400024: Box005
+    400026: Box006
+    400028: Box007
+    400030: Jar
+    400032: Jar Broken
+    400034: Jar Broken01
+    400036: Jar Broken02
+    400038: Jar Broken03
+    400040: Plate
+    400042: Plate Broken
+    400044: Plate broken01
+    400046: Plate broken02
+    400048: Plate broken03
+    400050: Plate Holder
+    400052: Play
+    400054: Play Broken01
+    400056: Play Broken02
+    400058: Reference
+    400060: Small plate
+    400062: Tea cup
+    400064: Tea cup set
+    400066: Tea cup set Broken
+    400068: Tea cup set broken03
+    400070: Tea cup set broken04
+    400072: Tea cup set broken05
+    400074: Tea cup set broken06
+    400076: Tea cup set broken07
+    400078: Tea cup set broken08
+    400080: Teapot
+    400082: Teapot Broken
+    400084: Teapot Broken01
+    400086: Teapot Broken02
+    400088: Teapot Broken03
+    400090: Teapot Broken04
+    400092: Teapot Broken05
+    400094: The Bat
+    400096: The Bat Bent
+    2100000: 02 - Default
+    2100002: No Name
+    2100004: 'Material #4'
+    2100006: 03 - Default
+    2100008: 07 - Default
+    2100010: 08 - Default
+    2100012: 09 - Default
+    2300000: Bat body
+    2300002: Bat Wing01
+    2300004: Bat Wing02
+    2300006: Big Cube
+    2300008: Big Jar
+    2300010: Big Jar Broken01
+    2300012: Big Jar Broken02
+    2300014: Big Jar Broken03
+    2300016: Box005
+    2300018: Box006
+    2300020: Box007
+    2300022: Jar
+    2300024: Jar Broken01
+    2300026: Jar Broken02
+    2300028: Jar Broken03
+    2300030: Plate
+    2300032: Plate broken01
+    2300034: Plate broken02
+    2300036: Plate broken03
+    2300038: Plate Holder
+    2300040: Play
+    2300042: Play Broken01
+    2300044: Play Broken02
+    2300046: Reference
+    2300048: Small plate
+    2300050: Tea cup
+    2300052: Tea cup set broken03
+    2300054: Tea cup set broken04
+    2300056: Tea cup set broken05
+    2300058: Tea cup set broken06
+    2300060: Tea cup set broken07
+    2300062: Tea cup set broken08
+    2300064: Teapot
+    2300066: Teapot Broken01
+    2300068: Teapot Broken02
+    2300070: Teapot Broken03
+    2300072: Teapot Broken04
+    2300074: Teapot Broken05
+    2300076: The Bat
+    2300078: The Bat Bent
+    3300000: Bat body
+    3300002: Bat Wing01
+    3300004: Bat Wing02
+    3300006: Big Cube
+    3300008: Big Jar
+    3300010: Big Jar Broken01
+    3300012: Big Jar Broken02
+    3300014: Big Jar Broken03
+    3300016: Box005
+    3300018: Box006
+    3300020: Box007
+    3300022: Jar
+    3300024: Jar Broken01
+    3300026: Jar Broken02
+    3300028: Jar Broken03
+    3300030: Plate
+    3300032: Plate broken01
+    3300034: Plate broken02
+    3300036: Plate broken03
+    3300038: Plate Holder
+    3300040: Play
+    3300042: Play Broken01
+    3300044: Play Broken02
+    3300046: Reference
+    3300048: Small plate
+    3300050: Tea cup
+    3300052: Tea cup set broken03
+    3300054: Tea cup set broken04
+    3300056: Tea cup set broken05
+    3300058: Tea cup set broken06
+    3300060: Tea cup set broken07
+    3300062: Tea cup set broken08
+    3300064: Teapot
+    3300066: Teapot Broken01
+    3300068: Teapot Broken02
+    3300070: Teapot Broken03
+    3300072: Teapot Broken04
+    3300074: Teapot Broken05
+    3300076: The Bat
+    3300078: The Bat Bent
+    4300000: The Bat
+    4300002: Big Cube
+    4300004: Reference
+    4300006: Big Jar
+    4300008: Plate Holder
+    4300010: Teapot
+    4300012: Jar
+    4300014: Bat body
+    4300016: Box005
+    4300018: Box006
+    4300020: Bat Wing01
+    4300022: Bat Wing02
+    4300024: Tea cup
+    4300026: Small plate
+    4300028: The Bat Bent
+    4300030: Plate
+    4300032: Big Jar Broken01
+    4300034: Big Jar Broken02
+    4300036: Big Jar Broken03
+    4300038: Jar Broken01
+    4300040: Jar Broken02
+    4300042: Jar Broken03
+    4300044: Plate broken01
+    4300046: Plate broken02
+    4300048: Plate broken03
+    4300050: Tea cup set broken03
+    4300052: Tea cup set broken04
+    4300054: Tea cup set broken05
+    4300056: Tea cup set broken06
+    4300058: Tea cup set broken07
+    4300060: Tea cup set broken08
+    4300062: Teapot Broken01
+    4300064: Teapot Broken02
+    4300066: Teapot Broken03
+    4300068: Teapot Broken04
+    4300070: Teapot Broken05
+    4300072: Box007
+    4300074: Play
+    4300076: Play Broken01
+    4300078: Play Broken02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
