@@ -4,68 +4,209 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Box002
-    100004: Box003
-    100006: Cylinder001
-    100008: Cylinder002
-    100010: Cylinder003
-    100012: Cylinder004
-    100014: Cylinder005
-    100016: Cylinder006
-    100018: Teapot001
-    100020: Teapot002
-    100022: Teapot003
+    100002: Bat body
+    100004: Bat figure
+    100006: Bat head
+    100008: Bat Wing01
+    100010: Bat Wing02
+    100012: Big Cube
+    100014: Big Jar
+    100016: Big Jar Broken
+    100018: Big Jar Broken01
+    100020: Big Jar Broken02
+    100022: Big Jar Broken03
+    100024: Box005
+    100026: Box006
+    100028: Jar
+    100030: Jar Broken
+    100032: Jar Broken01
+    100034: Jar Broken02
+    100036: Jar Broken03
+    100038: Plate
+    100040: Plate Broken
+    100042: Plate broken01
+    100044: Plate broken02
+    100046: Plate broken03
+    100048: Plate Holder
+    100050: Reference
+    100052: Small plate
+    100054: Tea cup
+    100056: Tea cup set
+    100058: Tea cup set Broken
+    100060: Tea cup set broken03
+    100062: Tea cup set broken04
+    100064: Tea cup set broken05
+    100066: Tea cup set broken06
+    100068: Tea cup set broken07
+    100070: Tea cup set broken08
+    100072: Teapot
+    100074: Teapot Broken
+    100076: Teapot Broken01
+    100078: Teapot Broken02
+    100080: Teapot Broken03
+    100082: Teapot Broken04
+    100084: Teapot Broken05
+    100086: The Bat
+    100088: The Bat Bent
     400000: //RootNode
-    400002: Box002
-    400004: Box003
-    400006: Cylinder001
-    400008: Cylinder002
-    400010: Cylinder003
-    400012: Cylinder004
-    400014: Cylinder005
-    400016: Cylinder006
-    400018: Teapot001
-    400020: Teapot002
-    400022: Teapot003
+    400002: Bat body
+    400004: Bat figure
+    400006: Bat head
+    400008: Bat Wing01
+    400010: Bat Wing02
+    400012: Big Cube
+    400014: Big Jar
+    400016: Big Jar Broken
+    400018: Big Jar Broken01
+    400020: Big Jar Broken02
+    400022: Big Jar Broken03
+    400024: Box005
+    400026: Box006
+    400028: Jar
+    400030: Jar Broken
+    400032: Jar Broken01
+    400034: Jar Broken02
+    400036: Jar Broken03
+    400038: Plate
+    400040: Plate Broken
+    400042: Plate broken01
+    400044: Plate broken02
+    400046: Plate broken03
+    400048: Plate Holder
+    400050: Reference
+    400052: Small plate
+    400054: Tea cup
+    400056: Tea cup set
+    400058: Tea cup set Broken
+    400060: Tea cup set broken03
+    400062: Tea cup set broken04
+    400064: Tea cup set broken05
+    400066: Tea cup set broken06
+    400068: Tea cup set broken07
+    400070: Tea cup set broken08
+    400072: Teapot
+    400074: Teapot Broken
+    400076: Teapot Broken01
+    400078: Teapot Broken02
+    400080: Teapot Broken03
+    400082: Teapot Broken04
+    400084: Teapot Broken05
+    400086: The Bat
+    400088: The Bat Bent
     2100000: 02 - Default
     2100002: No Name
     2100004: 'Material #4'
     2100006: 03 - Default
-    2100008: 08 - Default
-    2100010: 07 - Default
-    2300000: Box002
-    2300002: Box003
-    2300004: Cylinder001
-    2300006: Cylinder002
-    2300008: Cylinder003
-    2300010: Cylinder004
-    2300012: Cylinder005
-    2300014: Cylinder006
-    2300016: Teapot001
-    2300018: Teapot002
-    2300020: Teapot003
-    3300000: Box002
-    3300002: Box003
-    3300004: Cylinder001
-    3300006: Cylinder002
-    3300008: Cylinder003
-    3300010: Cylinder004
-    3300012: Cylinder005
-    3300014: Cylinder006
-    3300016: Teapot001
-    3300018: Teapot002
-    3300020: Teapot003
-    4300000: Cylinder001
-    4300002: Box002
-    4300004: Box003
-    4300006: Cylinder002
-    4300008: Cylinder003
-    4300010: Cylinder004
-    4300012: Teapot001
-    4300014: Teapot002
-    4300016: Teapot003
-    4300018: Cylinder005
-    4300020: Cylinder006
+    2100008: 07 - Default
+    2100010: 08 - Default
+    2300000: Bat body
+    2300002: Bat Wing01
+    2300004: Bat Wing02
+    2300006: Big Cube
+    2300008: Big Jar
+    2300010: Big Jar Broken01
+    2300012: Big Jar Broken02
+    2300014: Big Jar Broken03
+    2300016: Box005
+    2300018: Box006
+    2300020: Jar
+    2300022: Jar Broken01
+    2300024: Jar Broken02
+    2300026: Jar Broken03
+    2300028: Plate
+    2300030: Plate broken01
+    2300032: Plate broken02
+    2300034: Plate broken03
+    2300036: Plate Holder
+    2300038: Reference
+    2300040: Small plate
+    2300042: Tea cup
+    2300044: Tea cup set broken03
+    2300046: Tea cup set broken04
+    2300048: Tea cup set broken05
+    2300050: Tea cup set broken06
+    2300052: Tea cup set broken07
+    2300054: Tea cup set broken08
+    2300056: Teapot
+    2300058: Teapot Broken01
+    2300060: Teapot Broken02
+    2300062: Teapot Broken03
+    2300064: Teapot Broken04
+    2300066: Teapot Broken05
+    2300068: The Bat
+    2300070: The Bat Bent
+    3300000: Bat body
+    3300002: Bat Wing01
+    3300004: Bat Wing02
+    3300006: Big Cube
+    3300008: Big Jar
+    3300010: Big Jar Broken01
+    3300012: Big Jar Broken02
+    3300014: Big Jar Broken03
+    3300016: Box005
+    3300018: Box006
+    3300020: Jar
+    3300022: Jar Broken01
+    3300024: Jar Broken02
+    3300026: Jar Broken03
+    3300028: Plate
+    3300030: Plate broken01
+    3300032: Plate broken02
+    3300034: Plate broken03
+    3300036: Plate Holder
+    3300038: Reference
+    3300040: Small plate
+    3300042: Tea cup
+    3300044: Tea cup set broken03
+    3300046: Tea cup set broken04
+    3300048: Tea cup set broken05
+    3300050: Tea cup set broken06
+    3300052: Tea cup set broken07
+    3300054: Tea cup set broken08
+    3300056: Teapot
+    3300058: Teapot Broken01
+    3300060: Teapot Broken02
+    3300062: Teapot Broken03
+    3300064: Teapot Broken04
+    3300066: Teapot Broken05
+    3300068: The Bat
+    3300070: The Bat Bent
+    4300000: The Bat
+    4300002: Big Cube
+    4300004: Reference
+    4300006: Big Jar
+    4300008: Plate Holder
+    4300010: Teapot
+    4300012: Jar
+    4300014: Bat body
+    4300016: Box005
+    4300018: Box006
+    4300020: Bat Wing01
+    4300022: Bat Wing02
+    4300024: Tea cup
+    4300026: Small plate
+    4300028: The Bat Bent
+    4300030: Plate
+    4300032: Big Jar Broken01
+    4300034: Big Jar Broken02
+    4300036: Big Jar Broken03
+    4300038: Jar Broken01
+    4300040: Jar Broken02
+    4300042: Jar Broken03
+    4300044: Plate broken01
+    4300046: Plate broken02
+    4300048: Plate broken03
+    4300050: Tea cup set broken03
+    4300052: Tea cup set broken04
+    4300054: Tea cup set broken05
+    4300056: Tea cup set broken06
+    4300058: Tea cup set broken07
+    4300060: Tea cup set broken08
+    4300062: Teapot Broken01
+    4300064: Teapot Broken02
+    4300066: Teapot Broken03
+    4300068: Teapot Broken04
+    4300070: Teapot Broken05
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -97,7 +238,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.05
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
