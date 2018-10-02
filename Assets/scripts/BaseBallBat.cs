@@ -19,7 +19,6 @@ public class BaseBallBat : MonoBehaviour {
         {
             if (collision.rigidbody != null)
             {
-                Debug.Log("BOOM");
                 // collision.rigidbody.AddForceAtPosition((collision.transform.position - this.transform.position) * force, collision.contacts[0].point,ForceMode.VelocityChange);
                 // collision.rigidbody.AddForceAtPosition((-collision.contacts[0].normal) * force, collision.contacts[0].point, ForceMode.VelocityChange);
                 breakable br = collision.gameObject.GetComponent<breakable>();
