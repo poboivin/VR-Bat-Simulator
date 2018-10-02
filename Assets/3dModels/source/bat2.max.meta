@@ -49,6 +49,15 @@ ModelImporter:
     100086: Teapot Broken05
     100088: The Bat
     100090: The Bat Bent
+    100092: Play
+    100094: Play Broken005
+    100096: Play Broken006
+    100098: Play Broken007
+    100100: Play Broken008
+    100102: Play Broken01
+    100104: Play Broken02
+    100106: Play Broken03
+    100108: Tea cup set broken
     400000: Bat body
     400002: Bat figure
     400004: Bat head
@@ -95,12 +104,22 @@ ModelImporter:
     400086: Teapot Broken05
     400088: The Bat
     400090: The Bat Bent
+    400092: Play
+    400094: Play Broken005
+    400096: Play Broken006
+    400098: Play Broken007
+    400100: Play Broken008
+    400102: Play Broken01
+    400104: Play Broken02
+    400106: Play Broken03
+    400108: Tea cup set broken
     2100000: 02 - Default
     2100002: No Name
     2100004: 'Material #4'
     2100006: 03 - Default
     2100008: 07 - Default
     2100010: 08 - Default
+    2100012: 09 - Default
     2300000: Bat body
     2300002: Bat Wing01
     2300004: Bat Wing02
@@ -138,6 +157,14 @@ ModelImporter:
     2300068: Teapot Broken05
     2300070: The Bat
     2300072: The Bat Bent
+    2300074: Play
+    2300076: Play Broken005
+    2300078: Play Broken006
+    2300080: Play Broken007
+    2300082: Play Broken008
+    2300084: Play Broken01
+    2300086: Play Broken02
+    2300088: Play Broken03
     3300000: Bat body
     3300002: Bat Wing01
     3300004: Bat Wing02
@@ -175,6 +202,14 @@ ModelImporter:
     3300068: Teapot Broken05
     3300070: The Bat
     3300072: The Bat Bent
+    3300074: Play
+    3300076: Play Broken005
+    3300078: Play Broken006
+    3300080: Play Broken007
+    3300082: Play Broken008
+    3300084: Play Broken01
+    3300086: Play Broken02
+    3300088: Play Broken03
     4300000: The Bat
     4300002: Big Cube
     4300004: Reference
@@ -212,6 +247,14 @@ ModelImporter:
     4300068: Teapot Broken04
     4300070: Teapot Broken05
     4300072: Box007
+    4300074: Play
+    4300076: Play Broken01
+    4300078: Play Broken02
+    4300080: Play Broken03
+    4300082: Play Broken005
+    4300084: Play Broken006
+    4300086: Play Broken007
+    4300088: Play Broken008
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

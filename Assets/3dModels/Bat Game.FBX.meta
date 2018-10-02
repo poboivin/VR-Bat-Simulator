@@ -52,6 +52,7 @@ ModelImporter:
     100092: Teapot Broken05
     100094: The Bat
     100096: The Bat Bent
+    100098: Tea cup set broken
     400000: Bat body
     400002: Bat figure
     400004: //RootNode
@@ -101,6 +102,7 @@ ModelImporter:
     400092: Teapot Broken05
     400094: The Bat
     400096: The Bat Bent
+    400098: Tea cup set broken
     2100000: 02 - Default
     2100002: No Name
     2100004: 'Material #4'
