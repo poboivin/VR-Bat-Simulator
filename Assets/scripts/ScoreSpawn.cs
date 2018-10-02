@@ -16,7 +16,6 @@ public class ScoreSpawn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.LookAt(Camera.main.transform.position, Vector3.up);
         time -= Time.deltaTime;
         this.transform.Translate(Vector3.up * Speed * Time.deltaTime);
         transform.localScale = Vector3.Lerp( transform.localScale , transform.localScale / ScaleFactor, 1 / time /maxTime);

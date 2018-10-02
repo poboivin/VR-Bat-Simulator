@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour {
-
+    public Text ScoreDisplay;
     [SerializeField]
     float roundTimeInSeconds = 120f;
     [SerializeField]
@@ -30,6 +30,7 @@ public class ScoreManager : MonoBehaviour {
     }
     public void Update()
     {
+        ScoreDisplay.text = "Reward: " + score.ToString();
         roundTimeInSeconds -= Time.deltaTime;
 
         if(roundTimeInSeconds <= 0)
