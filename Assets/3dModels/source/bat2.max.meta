@@ -58,6 +58,14 @@ ModelImporter:
     100104: Play Broken02
     100106: Play Broken03
     100108: Tea cup set broken
+    100110: Play Broken
+    100112: Play Broken009
+    100114: Play Broken010
+    100116: Play Broken011
+    100118: Play Broken012
+    100120: Play Broken013
+    100122: Play Broken014
+    100124: Play Broken015
     400000: Bat body
     400002: Bat figure
     400004: Bat head
@@ -113,6 +121,14 @@ ModelImporter:
     400104: Play Broken02
     400106: Play Broken03
     400108: Tea cup set broken
+    400110: Play Broken
+    400112: Play Broken009
+    400114: Play Broken010
+    400116: Play Broken011
+    400118: Play Broken012
+    400120: Play Broken013
+    400122: Play Broken014
+    400124: Play Broken015
     2100000: 02 - Default
     2100002: No Name
     2100004: 'Material #4'
@@ -165,6 +181,13 @@ ModelImporter:
     2300084: Play Broken01
     2300086: Play Broken02
     2300088: Play Broken03
+    2300090: Play Broken009
+    2300092: Play Broken010
+    2300094: Play Broken011
+    2300096: Play Broken012
+    2300098: Play Broken013
+    2300100: Play Broken014
+    2300102: Play Broken015
     3300000: Bat body
     3300002: Bat Wing01
     3300004: Bat Wing02
@@ -210,6 +233,13 @@ ModelImporter:
     3300084: Play Broken01
     3300086: Play Broken02
     3300088: Play Broken03
+    3300090: Play Broken009
+    3300092: Play Broken010
+    3300094: Play Broken011
+    3300096: Play Broken012
+    3300098: Play Broken013
+    3300100: Play Broken014
+    3300102: Play Broken015
     4300000: The Bat
     4300002: Big Cube
     4300004: Reference
@@ -255,6 +285,13 @@ ModelImporter:
     4300084: Play Broken006
     4300086: Play Broken007
     4300088: Play Broken008
+    4300090: Play Broken009
+    4300092: Play Broken010
+    4300094: Play Broken011
+    4300096: Play Broken012
+    4300098: Play Broken013
+    4300100: Play Broken014
+    4300102: Play Broken015
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
