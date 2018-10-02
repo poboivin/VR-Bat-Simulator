@@ -11,7 +11,11 @@ public class ScoreManager : MonoBehaviour {
     [SerializeField]
     private int score = 0;
 
-
+    public Transform ScorePrefab;
+    public void SpawnScore(Vector3 pos, int amount)
+    {
+        Instantiate(ScorePrefab, pos, Quaternion.identity).GetComponent<ScoreSpawn>().Display.text = amount.ToString()+"$";
+    }
     public void AddScore(int amount)
     {
         score += amount;

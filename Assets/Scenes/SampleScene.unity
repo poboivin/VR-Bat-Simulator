@@ -3940,6 +3940,7 @@ MonoBehaviour:
   roundTimeInSeconds: 120
   scoreGoal: 4000
   score: 0
+  ScorePrefab: {fileID: 0}
 --- !u!4 &1178032353
 Transform:
   m_ObjectHideFlags: 0
