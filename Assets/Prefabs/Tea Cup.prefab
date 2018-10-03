@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4878266773298348}
+  - component: {fileID: 114890546312930892}
+  - component: {fileID: 54226889248558450}
   m_Layer: 0
   m_Name: Tea Cup
   m_TagString: Untagged
@@ -36,6 +38,7 @@ GameObject:
   - component: {fileID: 4291284816116376}
   - component: {fileID: 33804500648155232}
   - component: {fileID: 23243776507933560}
+  - component: {fileID: 64904097356768470}
   m_Layer: 0
   m_Name: Small plate
   m_TagString: Untagged
@@ -53,6 +56,7 @@ GameObject:
   - component: {fileID: 4680832121180994}
   - component: {fileID: 33216922806038058}
   - component: {fileID: 23936717123142490}
+  - component: {fileID: 64652247650870084}
   m_Layer: 0
   m_Name: Tea cup
   m_TagString: Untagged
@@ -185,3 +189,60 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1129102651267134}
   m_Mesh: {fileID: 4300026, guid: fbd3bdf47605a43478134b6f59ed0e0f, type: 3}
+--- !u!54 &54226889248558450
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083931260197684}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &64652247650870084
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904916334046300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300024, guid: fbd3bdf47605a43478134b6f59ed0e0f, type: 3}
+--- !u!64 &64904097356768470
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129102651267134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300026, guid: fbd3bdf47605a43478134b6f59ed0e0f, type: 3}
+--- !u!114 &114890546312930892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083931260197684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a208bf0980d64644a5e03b75016b8ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brokenPrefab: {fileID: 4751873587151320, guid: 249cbfb2de243554e952e9a3c9599013,
+    type: 2}
+  Score: 50
