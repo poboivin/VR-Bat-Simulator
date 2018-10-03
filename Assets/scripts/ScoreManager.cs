@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour {
-
+    public Text ScoreDisplay;
     [SerializeField]
     float roundTimeInSeconds = 120f;
     [SerializeField]
@@ -11,7 +11,11 @@ public class ScoreManager : MonoBehaviour {
     [SerializeField]
     private int score = 0;
 
-
+    public Transform ScorePrefab;
+    public void SpawnScore(Vector3 pos, int amount)
+    {
+        Instantiate(ScorePrefab, pos, Quaternion.identity).GetComponent<ScoreSpawn>().Display.text = amount.ToString()+"$";
+    }
     public void AddScore(int amount)
     {
         score += amount;
@@ -26,6 +30,7 @@ public class ScoreManager : MonoBehaviour {
     }
     public void Update()
     {
+        ScoreDisplay.text = "Reward: " + score.ToString();
         roundTimeInSeconds -= Time.deltaTime;
 
         if(roundTimeInSeconds <= 0)

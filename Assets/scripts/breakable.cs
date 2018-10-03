@@ -13,9 +13,12 @@ public class breakable : MonoBehaviour {
     public void Break()
     {
         Instantiate(brokenPrefab, transform.position, transform.rotation);
-       
-        if (GameObject.FindObjectOfType<ScoreManager>() != null)
-            GameObject.FindObjectOfType<ScoreManager>().AddScore(Score);
+        ScoreManager manager = GameObject.FindObjectOfType<ScoreManager>();
+        if (manager != null)
+        {
+            manager.AddScore(Score);
+            manager.SpawnScore(this.transform.position, Score);
+        }
         GameObject.Destroy(this.gameObject);
 
 
