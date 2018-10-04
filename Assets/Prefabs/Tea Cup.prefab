@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 54226889248558450}
   m_Layer: 0
   m_Name: Tea Cup
-  m_TagString: Untagged
+  m_TagString: breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,8 +71,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1129102651267134}
   m_LocalRotation: {x: -0.7090318, y: -0, z: -0, w: 0.7051766}
-  m_LocalPosition: {x: -0.010986328, y: -0.22903031, z: -0.30122295}
-  m_LocalScale: {x: 0.34874788, y: 0.34874916, z: 0.78117794}
+  m_LocalPosition: {x: 0, y: -0.0051, z: 0.0024995804}
+  m_LocalScale: {x: 0.34874788, y: 0.34874964, z: 0.7811789}
   m_Children: []
   m_Father: {fileID: 4878266773298348}
   m_RootOrder: 0
@@ -84,8 +84,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1904916334046300}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.010708809, y: -0.2198047, z: -0.30305615}
-  m_LocalScale: {x: 0.39900252, y: 0.399003, z: 0.399003}
+  m_LocalPosition: {x: 0.00027751923, y: 0.0041256137, z: 0.00066661835}
+  m_LocalScale: {x: 0.39900252, y: 0.39900348, z: 0.39900348}
   m_Children: []
   m_Father: {fileID: 4878266773298348}
   m_RootOrder: 1
@@ -97,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1083931260197684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.728621, y: 0.6377093, z: 0.20235243}
+  m_LocalPosition: {x: 10, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4291284816116376}
@@ -245,4 +245,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brokenPrefab: {fileID: 4751873587151320, guid: 249cbfb2de243554e952e9a3c9599013,
     type: 2}
-  Score: 50
+  Score: 15

@@ -11,6 +11,24 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1789434049744652}
   m_IsPrefabAsset: 1
+--- !u!1 &1515402956915788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4850978389443074}
+  - component: {fileID: 33371965460618034}
+  - component: {fileID: 23026131393704388}
+  - component: {fileID: 64255000483158126}
+  m_Layer: 0
+  m_Name: mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1789434049744652
 GameObject:
   m_ObjectHideFlags: 0
@@ -19,14 +37,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4013068288005062}
-  - component: {fileID: 33438685801962104}
-  - component: {fileID: 23736419380801046}
   - component: {fileID: 114075251106189480}
   - component: {fileID: 54724368610365514}
-  - component: {fileID: 64426239530433742}
   m_Layer: 0
   m_Name: Teapot
-  m_TagString: Untagged
+  m_TagString: breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,19 +52,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1789434049744652}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.0005329, y: 0.10476979, z: -1.1750642}
-  m_LocalScale: {x: 0.99279803, y: 0.99279803, z: 0.99279803}
-  m_Children: []
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4850978389443074}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23736419380801046
+--- !u!4 &4850978389443074
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515402956915788}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99279803, y: 0.992799, z: 0.992799}
+  m_Children: []
+  m_Father: {fileID: 4013068288005062}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23026131393704388
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1789434049744652}
+  m_GameObject: {fileID: 1515402956915788}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -79,12 +108,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33438685801962104
+--- !u!33 &33371965460618034
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1789434049744652}
+  m_GameObject: {fileID: 1515402956915788}
   m_Mesh: {fileID: 4300010, guid: fbd3bdf47605a43478134b6f59ed0e0f, type: 3}
 --- !u!54 &54724368610365514
 Rigidbody:
@@ -101,12 +130,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64426239530433742
+--- !u!64 &64255000483158126
 MeshCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1789434049744652}
+  m_GameObject: {fileID: 1515402956915788}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -128,4 +157,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brokenPrefab: {fileID: 4359675273345988, guid: 21576d54706f9b04faf845917020295b,
     type: 2}
-  Score: 50
+  Score: 35
